@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Console.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,16 @@ namespace Console
     {
         static void Main(string[] args)
         {
+            var context = new MiContextDb();
+
+            var bolivia = new Pais
+            {
+                Nombre = "Bolivia"
+            };
+
+            context.Paises.Add(bolivia);
+
+            context.SaveChanges();
         }
     }
 }
