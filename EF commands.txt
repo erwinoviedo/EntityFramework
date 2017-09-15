@@ -1,0 +1,23 @@
+Run the Install-Package EntityFramework command
+Run the Enable-Migrations command in Package Manager Console
+Add-Migration will scaffold the next migration based on changes you have made to your model since the last migration was created
+Update-Database will apply any pending migrations to the database
+
+    using System.Data.Entity;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.Data.Entity.Infrastructure;
+
+    namespace MigrationsDemo
+    {
+        public class BlogContext : DbContext
+        {
+            public DbSet<Blog> Blogs { get; set; }
+        }
+
+        public class Blog
+        {
+            public int BlogId { get; set; }
+            public string Name { get; set; }
+        }
+    }
