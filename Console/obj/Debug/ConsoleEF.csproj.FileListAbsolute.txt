@@ -1,0 +1,14 @@
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.csprojResolveAssemblyReference.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.csproj.CoreCompileInputs.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\ConsoleEF.exe.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\ConsoleEF.exe
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\ConsoleEF.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\Entidates.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\EntityFramework.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\Entidates.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\Entidates.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\EntityFramework.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.exe
+C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.pdb

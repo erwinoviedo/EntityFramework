@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{D4C5664F-5585-45AC-B1A3-79CB283252BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEF", "Console\ConsoleEF.csproj", "{D4C5664F-5585-45AC-B1A3-79CB283252BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidates", "Entidates\Entidates.csproj", "{82F52FB5-B4AB-4D18-BF0C-4E877CC33F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{D4C5664F-5585-45AC-B1A3-79CB283252BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4C5664F-5585-45AC-B1A3-79CB283252BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4C5664F-5585-45AC-B1A3-79CB283252BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F52FB5-B4AB-4D18-BF0C-4E877CC33F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F52FB5-B4AB-4D18-BF0C-4E877CC33F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F52FB5-B4AB-4D18-BF0C-4E877CC33F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F52FB5-B4AB-4D18-BF0C-4E877CC33F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5FC1600-A270-4E6B-9FF9-77D5CB229F80}
 	EndGlobalSection
 EndGlobal

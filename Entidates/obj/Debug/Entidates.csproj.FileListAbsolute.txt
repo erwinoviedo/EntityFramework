@@ -1,0 +1,10 @@
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\Entidates.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\Entidates.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\Entidates.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\EntityFramework.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\EntityFramework.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidates.csproj.CoreCompileInputs.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidates.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidates.pdb
