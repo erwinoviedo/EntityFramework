@@ -8,3 +8,4 @@ C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\bin\Debug\EntityFramework.
 C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.dll
 C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

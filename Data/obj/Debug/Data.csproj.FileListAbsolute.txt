@@ -1,0 +1,14 @@
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\Data.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\Data.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\Data.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\Entidades.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\EntityFramework.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\Entidades.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\Entidades.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\EntityFramework.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.pdb

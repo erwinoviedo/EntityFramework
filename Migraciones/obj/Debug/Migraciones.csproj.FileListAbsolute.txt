@@ -1,0 +1,17 @@
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Migraciones.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Migraciones.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Migraciones.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Data.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Entidades.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\EntityFramework.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Data.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Data.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Entidades.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\Entidades.dll.config
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\EntityFramework.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.csprojResolveAssemblyReference.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.csproj.CoreCompileInputs.cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.dll
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.pdb
