@@ -6,22 +6,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidates
+namespace Entidades
 {
     [Table("Documentos")]
     public class Documento
     {
-        [Key]
+        [Key]     
         public int Id { get; set; }
+        
         [MaxLength(250)]
         public string Referencia { get; set; }
         public DateTime FechaRecepcion { get; set; }
+        [Column(Order =2 )]
         public string CITE { get; set; }
-        public string Emisor { get; set; }
-        public string Destinatario { get; set; }
-        public string Redirigido { get; set; }
+
+        public int? EmisorId { get; set; }
+        public virtual AgendaPersona Emisor { get; set; }
+
+        public int DestinatarioId { get; set; }
+        public virtual AgendaPersona Destinatario { get; set; }
+
+        public int RedirigidoId { get; set; }
+        public virtual AgendaPersona Redirigido { get; set; }
+
         public DateTime RedirigidoFecha { get; set; }
         public string RecibidoPor { get; set; }
-
+        public bool HaSidoRecibido { get; set; }
     }
 }

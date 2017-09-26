@@ -1,4 +1,4 @@
-﻿using Entidates;
+﻿using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -10,11 +10,33 @@ namespace ConsoleEF
 {
     public class ApplicationContext : DbContext
     {
+        public DbSet<Documento> Documentos { get; set; }
+        public DbSet<AgendaPersona> AgendaPersonas { get; set; }
         public ApplicationContext() : base("cnn")
         {
-            //Constructor
+            //Constructor.            
         }
-        public DbSet<Documento> Documentos { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Documento>()
+                .HasRequired(documento => documento.Destinatario)
+                .WithMany()
+                .HasForeignKey(dcto => dcto.DestinatarioId)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Documento>()
+                .HasRequired(documento => documento.Emisor)
+                .WithMany()
+                .HasForeignKey(dcto => dcto.EmisorId)
+                .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<Documento>()
+               .HasRequired(documento => documento.Redirigido)
+               .WithMany()
+               .HasForeignKey(dcto => dcto.RedirigidoId)
+               .WillCascadeOnDelete(false);
+        }
     }
 
 }
