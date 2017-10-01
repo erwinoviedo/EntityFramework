@@ -19,6 +19,8 @@ namespace Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            //Fluent API
+
             modelBuilder.Entity<Documento>()
                 .HasRequired(documento => documento.Destinatario)
                 .WithMany()

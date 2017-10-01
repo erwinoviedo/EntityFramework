@@ -15,3 +15,6 @@ C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.cs
 C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.csproj.CoreCompileInputs.cache
 C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.dll
 C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.pdb
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.Migrations.Inicial.resources
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.csproj.GenerateResource.Cache
+C:\Users\Erwin\Source\Repos\EntityFramework\Migraciones\obj\Debug\Migraciones.Migrations.AdicionadoCampoFechaCreacionEnDocumento.resources

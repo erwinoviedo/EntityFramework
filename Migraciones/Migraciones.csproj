@@ -48,6 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MigrationContext.cs" />
+    <Compile Include="Migrations\201709270003217_Inicial.cs" />
+    <Compile Include="Migrations\201709270003217_Inicial.Designer.cs">
+      <DependentUpon>201709270003217_Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709270018563_AdicionadoCampoFechaCreacionEnDocumento.cs" />
+    <Compile Include="Migrations\201709270018563_AdicionadoCampoFechaCreacionEnDocumento.Designer.cs">
+      <DependentUpon>201709270018563_AdicionadoCampoFechaCreacionEnDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +72,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709270003217_Inicial.resx">
+      <DependentUpon>201709270003217_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709270018563_AdicionadoCampoFechaCreacionEnDocumento.resx">
+      <DependentUpon>201709270018563_AdicionadoCampoFechaCreacionEnDocumento.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
