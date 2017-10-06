@@ -8,12 +8,12 @@ Para desbloquearlo abrir la carpeta donde esta descargado el codigo fuente carpe
 
 - EntityFramework-master\packages\EntityFramework.6.1.3\tools\
 
-Y hacer click derecho -> Propiedades en la pestaña General al final hacer click en la casilla Desbloquear para dos archivos:
+Y hacer click derecho -> Propiedades en la pestaña General al final hacer click en la casilla Desbloquear los siguientes archivos:
 
 - EntityFramework.PowerShell.dll
 - EntityFramework.PowerShell.Utility.dll
 - EntityFramework.psm1 
 - init.ps1
 
-
+Una vez desbloqueados, reiniciar el visual studio
 
