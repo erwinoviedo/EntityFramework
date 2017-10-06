@@ -10,6 +10,8 @@ Para desbloquearlo abrir la carpeta donde esta descargado el codigo fuente carpe
 
 Y hacer click derecho -> Propiedades en la pestaña General al final hacer click en la casilla Desbloquear para dos archivos:
 
+- EntityFramework.PowerShell.dll
+- EntityFramework.PowerShell.Utility.dll
 - EntityFramework.psm1 
 - init.ps1
 
