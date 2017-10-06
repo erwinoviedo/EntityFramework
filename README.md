@@ -3,21 +3,19 @@ Projecto para el curso de EntityFramerwork
 
 ## Comandos de EF Code First Migrations
 
-En caso de que exista cambios en el modelo, se debe crear una nueva migracion con el comando  **Add-Migration** seguido de un titulo que de significado a la migracion, por ejemplo:
+Para poder llevar acabo un desarrollo que implique cambios en el modelo o entidades con Code First Migrations, debemos ejecutar dos comandos en la ventana Consola de Administracion de Paquetes dentro de Visual Studio
+
+Primeramente, En caso de que exista cambios en el modelo, se debe crear una nueva migracion con el comando  **Add-Migration** seguido de un titulo que de significado a la migracion, por ejemplo:
 
 **Add-Migration AdicionadoCampoFechaCreacionEnUsuarios**
 
-Para crear o actualizar una base de datos, se ejecuta el comando **update-database** 
+Luego Para crear o actualizar una base de datos con una migracion pendiente: se ejecuta el comando **update-database** 
 
 ## Database Seeding
 
-Seeding es el proceso de inicializar o crear una base de datos con datos populados.
+Seeding es el proceso de inicializar o crear una base de datos con datos populados. Este generalmente es un proceso automatizado que se ejecuta al momento de inicializar una aplicacion. Los datos suelen ser ficticios y son una representacion pequeña de los posibles datos y escenarios que pueden haber en la base de datos.
 
-Este generalmente es un proceso automatizado que se ejecuta al momento de inicializar una aplicacion.
-
-Los datos suelen ser ficticios y son una representacion pequeña de los posibles datos y escenarios que pueden haber en la base de datos.
-
-En Entity Framework existe un metodo Seed, dentro de la clase Configuration, el mismo que se ejecuta en cada comando **update-database** lo que permite que al momento de actualizar o crear nuestra base de datos, injectemos los datos que queremos se inicialize la base de datos. 
+Cada framework generalmente tiene una manera de llevar este proceso de forma automatizada. En Entity Framework existe un metodo Seed, dentro de la clase Configuration, el mismo que se ejecuta en cada comando **update-database** lo que permite que al momento de actualizar o crear nuestra base de datos, injectemos los datos que queremos se inicialize la base de datos. 
 
     internal sealed class Configuration : DbMigrationsConfiguration<Migraciones.MigrationContext>
     {
@@ -57,5 +55,5 @@ Y hacer click derecho -> Propiedades en la pestaña General al final hacer click
 - EntityFramework.psm1 
 - init.ps1
 
-Una vez desbloqueados, reiniciar el visual studio
+Una vez desbloqueados, se debe reiniciar el Visual Studio para que los cambios tengan efecto.
 
