@@ -12,3 +12,16 @@ C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.csprojRe
 C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.csproj.CoreCompileInputs.cache
 C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.exe
 C:\Users\Erwin\Source\Repos\EntityFramework\Console\obj\Debug\ConsoleEF.pdb
+D:\Training\EntityFramework\Console\bin\Debug\ConsoleEF.exe.config
+D:\Training\EntityFramework\Console\bin\Debug\ConsoleEF.exe
+D:\Training\EntityFramework\Console\bin\Debug\ConsoleEF.pdb
+D:\Training\EntityFramework\Console\bin\Debug\Entidades.dll
+D:\Training\EntityFramework\Console\bin\Debug\EntityFramework.dll
+D:\Training\EntityFramework\Console\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\EntityFramework\Console\bin\Debug\Entidades.pdb
+D:\Training\EntityFramework\Console\bin\Debug\Entidades.dll.config
+D:\Training\EntityFramework\Console\bin\Debug\EntityFramework.xml
+D:\Training\EntityFramework\Console\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\EntityFramework\Console\obj\Debug\ConsoleEF.csprojResolveAssemblyReference.cache
+D:\Training\EntityFramework\Console\obj\Debug\ConsoleEF.exe
+D:\Training\EntityFramework\Console\obj\Debug\ConsoleEF.pdb

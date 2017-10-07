@@ -9,3 +9,13 @@ C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.csproj
 C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.dll
 C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.pdb
 C:\Users\Erwin\Source\Repos\EntityFramework\Entidates\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Training\EntityFramework\Entidates\bin\Debug\Entidades.dll.config
+D:\Training\EntityFramework\Entidates\bin\Debug\Entidades.dll
+D:\Training\EntityFramework\Entidates\bin\Debug\Entidades.pdb
+D:\Training\EntityFramework\Entidates\bin\Debug\EntityFramework.dll
+D:\Training\EntityFramework\Entidates\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\EntityFramework\Entidates\bin\Debug\EntityFramework.xml
+D:\Training\EntityFramework\Entidates\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\EntityFramework\Entidates\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Training\EntityFramework\Entidates\obj\Debug\Entidades.dll
+D:\Training\EntityFramework\Entidates\obj\Debug\Entidades.pdb

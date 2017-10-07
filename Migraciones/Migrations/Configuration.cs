@@ -1,8 +1,10 @@
 namespace Migraciones.Migrations
 {
+    using Entidades;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
+    using System.Diagnostics;
     using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Migraciones.MigrationContext>
@@ -26,6 +28,18 @@ namespace Migraciones.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
+
+            context.AgendaPersonas.AddOrUpdate(
+                persona=>new { persona.Nombre, persona.Apellido }, 
+                new AgendaPersona { Nombre = "Maria", Apellido ="Espinoza" },
+                new AgendaPersona { Nombre = "Jose", Apellido = "Delgado" },
+                new AgendaPersona { Nombre = "Adrian", Apellido = "Hurtado" },
+                new AgendaPersona { Nombre = "Ruben", Apellido = "Aguilera" },
+                new AgendaPersona { Nombre = "Maria Magdalena", Apellido = "Alpire" }
+            );
+
+            
+            context.SaveChanges();
         }
     }
 }

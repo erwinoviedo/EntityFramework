@@ -12,3 +12,16 @@ C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.csprojResolveAss
 C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
 C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.dll
 C:\Users\Erwin\Source\Repos\EntityFramework\Data\obj\Debug\Data.pdb
+D:\Training\EntityFramework\Data\bin\Debug\Data.dll.config
+D:\Training\EntityFramework\Data\bin\Debug\Data.dll
+D:\Training\EntityFramework\Data\bin\Debug\Data.pdb
+D:\Training\EntityFramework\Data\bin\Debug\Entidades.dll
+D:\Training\EntityFramework\Data\bin\Debug\EntityFramework.dll
+D:\Training\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\EntityFramework\Data\bin\Debug\Entidades.pdb
+D:\Training\EntityFramework\Data\bin\Debug\Entidades.dll.config
+D:\Training\EntityFramework\Data\bin\Debug\EntityFramework.xml
+D:\Training\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\EntityFramework\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Training\EntityFramework\Data\obj\Debug\Data.dll
+D:\Training\EntityFramework\Data\obj\Debug\Data.pdb
