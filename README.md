@@ -3,7 +3,7 @@ Projecto para el curso de EntityFramerwork
 
 ## Comandos de EF Code First Migrations
 
-Para poder llevar acabo un desarrollo que implique cambios en el modelo o entidades con Code First Migrations, debemos ejecutar dos comandos en la ventana Consola de Administracion de Paquetes dentro de Visual Studio
+Para poder llevar acabo un desarrollo que implique cambios en el modelo o entidades con Code First Migrations, debemos ejecutar dos comandos en la ventana Consola de Administracion de Paquetes dentro de Visual Studio, **con el projecto Migraciones seleccionado.**
 
 Primeramente, En caso de que exista cambios en el modelo, se debe crear una nueva migracion con el comando  **Add-Migration** seguido de un titulo que de significado a la migracion, por ejemplo:
 
