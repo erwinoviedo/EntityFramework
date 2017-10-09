@@ -30,3 +30,12 @@ C:\Training\EntityFramework\Entidates\obj\Debug\Entidades.csprojResolveAssemblyR
 C:\Training\EntityFramework\Entidates\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Training\EntityFramework\Entidates\obj\Debug\Entidades.dll
 C:\Training\EntityFramework\Entidates\obj\Debug\Entidades.pdb
+D:\Training\EF\Entidates\bin\Debug\Entidades.dll.config
+D:\Training\EF\Entidates\bin\Debug\Entidades.dll
+D:\Training\EF\Entidates\bin\Debug\Entidades.pdb
+D:\Training\EF\Entidates\bin\Debug\EntityFramework.dll
+D:\Training\EF\Entidates\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\EF\Entidates\bin\Debug\EntityFramework.xml
+D:\Training\EF\Entidates\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\EF\Entidates\obj\Debug\Entidades.dll
+D:\Training\EF\Entidates\obj\Debug\Entidades.pdb

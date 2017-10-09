@@ -39,3 +39,16 @@ C:\Training\EntityFramework\Data\obj\Debug\Data.csprojResolveAssemblyReference.c
 C:\Training\EntityFramework\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
 C:\Training\EntityFramework\Data\obj\Debug\Data.dll
 C:\Training\EntityFramework\Data\obj\Debug\Data.pdb
+D:\Training\EF\Data\bin\Debug\Data.dll.config
+D:\Training\EF\Data\bin\Debug\Data.dll
+D:\Training\EF\Data\bin\Debug\Data.pdb
+D:\Training\EF\Data\bin\Debug\Entidades.dll
+D:\Training\EF\Data\bin\Debug\EntityFramework.dll
+D:\Training\EF\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Training\EF\Data\bin\Debug\Entidades.pdb
+D:\Training\EF\Data\bin\Debug\Entidades.dll.config
+D:\Training\EF\Data\bin\Debug\EntityFramework.xml
+D:\Training\EF\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Training\EF\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Training\EF\Data\obj\Debug\Data.dll
+D:\Training\EF\Data\obj\Debug\Data.pdb

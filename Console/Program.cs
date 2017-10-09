@@ -17,7 +17,14 @@ namespace ConsoleEF
             AdicionarDocumentoConGraphs();
             Console.Read();
         }
+        static void MostrarCantidadDeDocumentosRepository()
+        {
+            var miContexto = new ApplicationContext();
 
+            var cantidadTotal = miContexto.Documentos.Count();
+
+            Console.WriteLine($"Cantidad de documentos : {cantidadTotal}");
+        }
         static void MostrarCantidadDeDocumentos()
         {
             var miContexto = new ApplicationContext();

@@ -13,11 +13,8 @@ namespace Entidades
     //http://www.entityframeworktutorial.net/code-first/dataannotation-in-code-first.aspx
 
     [Table("Documentos")]
-    public class Documento
+    public class Documento : ObjectIdentificable
     {
-        [Key]
-        public int Id { get; set; }
-
         [MaxLength(250)]
         public string Referencia { get; set; }
 

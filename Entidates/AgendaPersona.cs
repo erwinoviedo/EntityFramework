@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class AgendaPersona
+    public class AgendaPersona : ObjectIdentificable
     {
-        [Key]
-        public int Id { get; set; }
-
         [MaxLength(50)]
         [Required]
         public string Nombre { get; set; }

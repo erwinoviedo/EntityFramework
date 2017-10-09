@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="AgendaPersona.cs" />
     <Compile Include="Documento.cs" />
+    <Compile Include="ObjectIdentificable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

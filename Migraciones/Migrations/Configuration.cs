@@ -23,9 +23,11 @@ namespace Migraciones.Migrations
             //    System.Diagnostics.Debugger.Launch();
             //}
 
-            var destinatario  = new AgendaPersona { Nombre = "Maria",  Apellido = "Espinoza" };
-            var emisor        = new AgendaPersona { Nombre = "Jose",   Apellido = "Delgado" };
-            var redirigido    = new AgendaPersona { Nombre = "Adrian", Apellido = "Hurtado" };
+            //Definir Id's fijos para objetos que se usaran como referencia de llaves foraneas haciendo seeding 
+
+            var destinatario  = new AgendaPersona { Id = 1, Nombre = "Maria",  Apellido = "Espinoza" };
+            var emisor        = new AgendaPersona { Id = 2, Nombre = "Jose",   Apellido = "Delgado" };
+            var redirigido    = new AgendaPersona { Id = 3, Nombre = "Adrian", Apellido = "Hurtado" };
 
             context.AgendaPersonas.AddOrUpdate(
                 persona=>new { persona.Nombre, persona.Apellido }, 
