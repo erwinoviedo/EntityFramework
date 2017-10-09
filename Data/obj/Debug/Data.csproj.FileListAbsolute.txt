@@ -25,3 +25,17 @@ D:\Training\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\Training\EntityFramework\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 D:\Training\EntityFramework\Data\obj\Debug\Data.dll
 D:\Training\EntityFramework\Data\obj\Debug\Data.pdb
+C:\Training\EntityFramework\Data\bin\Debug\Data.dll.config
+C:\Training\EntityFramework\Data\bin\Debug\Data.dll
+C:\Training\EntityFramework\Data\bin\Debug\Data.pdb
+C:\Training\EntityFramework\Data\bin\Debug\Entidades.dll
+C:\Training\EntityFramework\Data\bin\Debug\EntityFramework.dll
+C:\Training\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Training\EntityFramework\Data\bin\Debug\Entidades.pdb
+C:\Training\EntityFramework\Data\bin\Debug\Entidades.dll.config
+C:\Training\EntityFramework\Data\bin\Debug\EntityFramework.xml
+C:\Training\EntityFramework\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Training\EntityFramework\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Training\EntityFramework\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Training\EntityFramework\Data\obj\Debug\Data.dll
+C:\Training\EntityFramework\Data\obj\Debug\Data.pdb

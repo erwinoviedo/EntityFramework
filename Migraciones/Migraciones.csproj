@@ -56,6 +56,14 @@
     <Compile Include="Migrations\201709270018563_AdicionadoCampoFechaCreacionEnDocumento.Designer.cs">
       <DependentUpon>201709270018563_AdicionadoCampoFechaCreacionEnDocumento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710071445056_CampoRedirigidoFechaNoEsMasComputed.cs" />
+    <Compile Include="Migrations\201710071445056_CampoRedirigidoFechaNoEsMasComputed.Designer.cs">
+      <DependentUpon>201710071445056_CampoRedirigidoFechaNoEsMasComputed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710071446258_CampoFechaCreacionNoEsMasComputed.cs" />
+    <Compile Include="Migrations\201710071446258_CampoFechaCreacionNoEsMasComputed.Designer.cs">
+      <DependentUpon>201710071446258_CampoFechaCreacionNoEsMasComputed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,6 +87,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709270018563_AdicionadoCampoFechaCreacionEnDocumento.resx">
       <DependentUpon>201709270018563_AdicionadoCampoFechaCreacionEnDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710071445056_CampoRedirigidoFechaNoEsMasComputed.resx">
+      <DependentUpon>201710071445056_CampoRedirigidoFechaNoEsMasComputed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710071446258_CampoFechaCreacionNoEsMasComputed.resx">
+      <DependentUpon>201710071446258_CampoFechaCreacionNoEsMasComputed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

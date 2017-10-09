@@ -39,15 +39,11 @@ namespace Entidades
 
         public virtual AgendaPersona Redirigido { get; set; }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-
         public DateTime RedirigidoFecha { get; set; }
 
         public string RecibidoPor { get; set; }
 
         public bool HaSidoRecibido { get; set; }
-
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime FechaCreacion { get; set; }
     }
 }

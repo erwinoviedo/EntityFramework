@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Data\Data.csproj">
+      <Project>{1521f61a-2245-419b-be6b-60234441e7df}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidates\Entidades.csproj">
       <Project>{82f52fb5-b4ab-4d18-bf0c-4e877cc33f9f}</Project>
       <Name>Entidades</Name>
