@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migraciones", "Migraciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{1521F61A-2245-419B-BE6B-60234441E7DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{01550CC4-80E8-4D9F-8EC6-99A7D462ABA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1521F61A-2245-419B-BE6B-60234441E7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1521F61A-2245-419B-BE6B-60234441E7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1521F61A-2245-419B-BE6B-60234441E7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01550CC4-80E8-4D9F-8EC6-99A7D462ABA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01550CC4-80E8-4D9F-8EC6-99A7D462ABA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01550CC4-80E8-4D9F-8EC6-99A7D462ABA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01550CC4-80E8-4D9F-8EC6-99A7D462ABA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

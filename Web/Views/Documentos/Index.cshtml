@@ -1,0 +1,36 @@
+﻿@model List<Entidades.Documento>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Documentos</h2>
+<div>Lista de Codigos de Documentos</div>
+<ul>
+    @foreach (var documento in Model)
+    {
+        <text>
+        <li>@documento.CITE</li>
+        </text>
+    }
+</ul>
+
+<div>Tabla de documentos</div>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Codigo</th>
+            <th>Referencia</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var documento in Model)
+        {
+            <text>
+                <tr>
+                    <td>@documento.CITE</td>
+                    <td>@documento.Referencia</td>
+                </tr>
+            </text>
+        }
+    </tbody>
+</table>

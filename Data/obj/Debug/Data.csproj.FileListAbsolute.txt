@@ -52,3 +52,17 @@ D:\Training\EF\Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\Training\EF\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 D:\Training\EF\Data\obj\Debug\Data.dll
 D:\Training\EF\Data\obj\Debug\Data.pdb
+C:\Training\EF\Data\bin\Debug\Data.dll.config
+C:\Training\EF\Data\bin\Debug\Data.dll
+C:\Training\EF\Data\bin\Debug\Data.pdb
+C:\Training\EF\Data\bin\Debug\Entidades.dll
+C:\Training\EF\Data\bin\Debug\EntityFramework.dll
+C:\Training\EF\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Training\EF\Data\bin\Debug\Entidades.pdb
+C:\Training\EF\Data\bin\Debug\Entidades.dll.config
+C:\Training\EF\Data\bin\Debug\EntityFramework.xml
+C:\Training\EF\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Training\EF\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Training\EF\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Training\EF\Data\obj\Debug\Data.dll
+C:\Training\EF\Data\obj\Debug\Data.pdb
