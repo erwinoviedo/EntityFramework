@@ -1,0 +1,26 @@
+﻿@model Web.Models.DocumentoViewModel
+@{
+    ViewBag.Title = "Nuevo";
+}
+
+<h2>Nuevo Documento</h2>
+
+<div class="container">
+    @using(Html.BeginForm("Nuevo","Documentos", FormMethod.Post))
+    {
+        @Html.ValidationSummary()
+
+        <div class="form-group">
+            @Html.Label("Cite","Cite")
+            @Html.TextBoxFor(model=>model.CITE, "", new { @class="form-control"})
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model=>model.Referencia)
+            @Html.TextBoxFor(model=>model.Referencia,"", new { @class="form-control"})
+        </div>
+        
+        @Html.ActionLink("Cancelar","Index","Documentos")
+        <input type="submit" value="Guardar" class="btn-primary" />
+    }
+</div>
