@@ -3,23 +3,19 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Documentos</h2>
-<div>Lista de Codigos de Documentos</div>
-<ul>
-    @foreach (var documento in Model)
-    {
-        <text>
-        <li>@documento.CITE</li>
-        </text>
-    }
-</ul>
-
-<div>Tabla de documentos</div>
+<h2>Tabla de Documentos</h2>
+<hr />
 <table class="table table-bordered table-hover">
     <thead>
         <tr>
             <th>Codigo</th>
             <th>Referencia</th>
+            <th>Destinatario</th>
+            <th>Emisor</th>
+            <th>Redirigido</th>
+            <th>Fecha Creacion</th>
+            <th>Fecha Recepcion</th>
+            <th>Fecha Redirigido</th>
         </tr>
     </thead>
     <tbody>
@@ -29,6 +25,12 @@
                 <tr>
                     <td>@documento.CITE</td>
                     <td>@documento.Referencia</td>
+                    <td>@documento.Destinatario.Nombre @documento.Destinatario.Apellido</td>
+                    <td>@documento.Emisor.Nombre @documento.Emisor.Apellido</td>
+                    <td>@documento.Redirigido.Nombre @documento.Redirigido.Apellido</td>
+                    <td>@documento.FechaCreacion.ToShortDateString()</td>
+                    <td>@documento.FechaRecepcion.ToShortDateString()</td>
+                    <td>@documento.RedirigidoFecha.ToShortDateString()</td>
                 </tr>
             </text>
         }

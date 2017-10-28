@@ -18,27 +18,37 @@ namespace Web.Controllers
 
         public ActionResult Nuevo()
         {
-            return View();
+            var appContext = new ApplicationContext();
+            var agendaPersonas = new List<SelectListItem>();
+            var model = new Models.DocumentoViewModel();
+            //Cargar de la BD la lista y pasarla al modelo
+            agendaPersonas = appContext.AgendaPersonas.Select(ap=> new SelectListItem {
+                Text = ap.Nombre ,
+                Value = ap.Id.ToString()
+            }).ToList();
+            model.ListaPersonas = agendaPersonas;
+            return View(model);
         }
         [HttpPost]
         public ActionResult Nuevo(Models.DocumentoViewModel model)
         {
             if (ModelState.IsValid)
             {
-
                 //Escribir codigo para guardar a la BD.
                 var appContext = new ApplicationContext();
                 //Pasar los datos del modelo a la entidad Documento
                 var nuevoDocumento = new Entidades.Documento();
+
                 nuevoDocumento.CITE = model.CITE;
                 nuevoDocumento.Referencia = model.Referencia;
+                nuevoDocumento.DestinatarioId = model.DestinatarioId;
+                nuevoDocumento.EmisorId = model.EmisorId;
+                nuevoDocumento.RedirigidoId = model.RedirigidoId;
+                nuevoDocumento.FechaCreacion = model.FechaCreacion;
                 //Valores por defecto (para que permita el guardado)
-                nuevoDocumento.DestinatarioId = 1;
-                nuevoDocumento.EmisorId = 2;
-                nuevoDocumento.FechaCreacion = DateTime.Today;
-                nuevoDocumento.FechaRecepcion = DateTime.Today;
-                nuevoDocumento.RedirigidoFecha = DateTime.Today;
-                nuevoDocumento.RedirigidoId = 3;
+
+                nuevoDocumento.FechaRecepcion = model.FechaRecepcion;
+                nuevoDocumento.RedirigidoFecha = model.RedirigidoFecha;
                 
                 appContext.Documentos.Add(nuevoDocumento);
                 appContext.SaveChanges();

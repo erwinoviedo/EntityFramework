@@ -19,8 +19,44 @@
             @Html.LabelFor(model=>model.Referencia)
             @Html.TextBoxFor(model=>model.Referencia,"", new { @class="form-control"})
         </div>
-        
+
+        <div class="form-group">
+            @Html.LabelFor(model=>model.DestinatarioId)
+            @Html.DropDownListFor(model=>model.DestinatarioId,Model.ListaPersonas, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EmisorId)
+            @Html.DropDownListFor(model => model.EmisorId, Model.ListaPersonas, new { @class="form-control"})
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RedirigidoId)
+            @Html.DropDownListFor(model => model.RedirigidoId, Model.ListaPersonas, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FechaCreacion)
+            @Html.TextBox("FechaCreacion","", new { @class = "form-control", id="fechaCreacion" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.FechaRecepcion)
+            @Html.TextBox("FechaRecepcion", "", new { @class = "form-control", id = "fechaRecepcion" })
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.RedirigidoFecha)
+            @Html.TextBox("RedirigidoFecha", "", new { @class = "form-control", id = "redirigidoFecha" })
+        </div>
         @Html.ActionLink("Cancelar","Index","Documentos")
         <input type="submit" value="Guardar" class="btn-primary" />
     }
 </div>
+@section scripts{
+<script>
+    $(function () {
+        $("#fechaCreacion").datepicker();
+        $("#fechaRecepcion").datepicker();
+        $("#redirigidoFecha").datepicker();
+    });
+</script>
+}
