@@ -55,7 +55,60 @@ namespace Web.Controllers
                 //Redireccionar a la vista principal
                 return RedirectToAction("Index", "Documentos");
             }
+            else
+            {
+                var appContext = new ApplicationContext();
+                model.ListaPersonas = appContext.AgendaPersonas.Select(ap => new SelectListItem
+                {
+                    Text = ap.Nombre,
+                    Value = ap.Id.ToString()
+                }).ToList();
+            }
             return View(model);
+        }
+
+        public ActionResult Editar(int id)
+        {
+            var applicationContext = new ApplicationContext();
+            var documento = applicationContext.Documentos.Where(d => d.Id == id).Single();
+            var modelo = new Models.DocumentoViewModel();
+            modelo.CITE = documento.CITE;
+            modelo.DestinatarioId = documento.DestinatarioId;
+            modelo.EmisorId = documento.EmisorId;            
+            modelo.FechaCreacion = documento.FechaCreacion;
+            modelo.FechaRecepcion = documento.FechaRecepcion;
+            modelo.RedirigidoFecha = documento.RedirigidoFecha;
+            modelo.RedirigidoId = documento.RedirigidoId;
+            modelo.Referencia = documento.Referencia;
+            modelo.ListaPersonas = applicationContext.AgendaPersonas.Select(ap => new SelectListItem
+            {
+                Text = ap.Nombre,
+                Value = ap.Id.ToString()
+            }).ToList();
+            return View(modelo);
+        }
+        [HttpPost]
+        public ActionResult Editar(Models.DocumentoViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var applicationContext = new ApplicationContext();
+                var documento = applicationContext.Documentos.Where(d => d.Id == model.Id).Single();
+
+                documento.CITE = model.CITE;
+                documento.Referencia = model.Referencia;
+                documento.DestinatarioId = model.DestinatarioId;
+                documento.EmisorId = model.EmisorId;
+                documento.FechaCreacion = model.FechaCreacion;
+                documento.FechaRecepcion = model.FechaRecepcion;
+                documento.RedirigidoFecha = model.RedirigidoFecha;
+
+                applicationContext.SaveChanges();
+
+                //Redireccionar a la vista principal
+                return RedirectToAction("Index", "Documentos");
+            }
+            return View();
         }
     }
 }

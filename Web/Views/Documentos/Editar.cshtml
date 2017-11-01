@@ -1,38 +1,38 @@
 ﻿@model Web.Models.DocumentoViewModel
 @{
-    ViewBag.Title = "Nuevo";
+    ViewBag.Title = "Editar";
 }
 
-<h2>Nuevo Documento</h2>
+<h2>Editar</h2>
 
 <div class="container">
-    @using (Html.BeginForm("Nuevo", "Documentos", FormMethod.Post))
+    @using (Html.BeginForm("Editar", "Documentos", FormMethod.Post))
     {
         if (!ViewData.ModelState.IsValid)
         {
             <div class="alert alert-danger">
                 @Html.ValidationSummary()
-            </div>       
+            </div>
         }
-
+        @Html.HiddenFor(model=>model.Id)
         <div class="form-group">
-            @Html.Label("Cite","Cite")
-            @Html.TextBoxFor(model=>model.CITE, "", new { @class="form-control"})
+            @Html.Label("Cite", "Cite")
+            @Html.TextBoxFor(model => model.CITE, "", new { @class = "form-control" })
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model=>model.Referencia)
-            @Html.TextBoxFor(model=>model.Referencia,"", new { @class="form-control"})
+            @Html.LabelFor(model => model.Referencia)
+            @Html.TextBoxFor(model => model.Referencia, "", new { @class = "form-control" })
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model=>model.DestinatarioId)
-            @Html.DropDownListFor(model=>model.DestinatarioId,Model.ListaPersonas, new { @class = "form-control" })
+            @Html.LabelFor(model => model.DestinatarioId)
+            @Html.DropDownListFor(model => model.DestinatarioId, Model.ListaPersonas, new { @class = "form-control" })
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.EmisorId)
-            @Html.DropDownListFor(model => model.EmisorId, Model.ListaPersonas, new { @class="form-control"})
+            @Html.DropDownListFor(model => model.EmisorId, Model.ListaPersonas, new { @class = "form-control" })
         </div>
 
         <div class="form-group">
@@ -42,26 +42,26 @@
 
         <div class="form-group">
             @Html.LabelFor(model => model.FechaCreacion)
-            @Html.TextBox("FechaCreacion","", new { @class = "form-control", id="fechaCreacion" })
+            @Html.TextBoxFor(model=> model.FechaCreacion, "{0: MM/dd/yyyy}", new { @class = "form-control", id = "fechaCreacion" })
         </div>
         <div class="form-group">
             @Html.LabelFor(model => model.FechaRecepcion)
-            @Html.TextBox("FechaRecepcion", "", new { @class = "form-control", id = "fechaRecepcion" })
+            @Html.TextBoxFor(model => model.FechaRecepcion, "{0: MM/dd/yyyy}", new { @class = "form-control", id = "fechaRecepcion" })
         </div>
         <div class="form-group">
             @Html.LabelFor(model => model.RedirigidoFecha)
-            @Html.TextBox("RedirigidoFecha", "", new { @class = "form-control", id = "redirigidoFecha" })
+            @Html.TextBoxFor(model => model.RedirigidoFecha, "{0: MM/dd/yyyy}", new { @class = "form-control", id = "redirigidoFecha" })
         </div>
-        @Html.ActionLink("Cancelar","Index","Documentos")
+        @Html.ActionLink("Cancelar", "Index", "Documentos")
         <input type="submit" value="Guardar" class="btn-primary" />
     }
 </div>
 @section scripts{
-<script>
+    <script>
     $(function () {
         $("#fechaCreacion").datepicker();
         $("#fechaRecepcion").datepicker();
         $("#redirigidoFecha").datepicker();
     });
-</script>
+    </script>
 }

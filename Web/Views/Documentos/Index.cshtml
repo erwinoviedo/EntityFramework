@@ -16,6 +16,7 @@
             <th>Fecha Creacion</th>
             <th>Fecha Recepcion</th>
             <th>Fecha Redirigido</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -31,6 +32,7 @@
                     <td>@documento.FechaCreacion.ToShortDateString()</td>
                     <td>@documento.FechaRecepcion.ToShortDateString()</td>
                     <td>@documento.RedirigidoFecha.ToShortDateString()</td>
+                    <td>@Html.ActionLink("Editar", "Editar", new { Id= documento.Id })</td>
                 </tr>
             </text>
         }
