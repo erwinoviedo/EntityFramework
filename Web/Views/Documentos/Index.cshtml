@@ -1,9 +1,22 @@
-﻿@model List<Entidades.Documento>
+﻿@model Web.Models.DocumentoListaViewModel
 @{
     ViewBag.Title = "Index";
 }
 
 <h2>Tabla de Documentos</h2>
+<hr />
+<div class="row">
+    @using(Html.BeginForm("Filtro", "Documentos", FormMethod.Post, new { @class= "form-horizontal"})){
+        <div class="form-group">
+            <label class="control-label col-md-2">Referencia:</label> 
+            <div class="col-md-8">
+                @Html.TextBoxFor(model => model.Referencia, new { @class = "form-control" })
+            </div>
+            <div class="col-md-2"><input type="submit" value="Buscar" class="btn-primary" /></div>
+        </div>   
+        
+    }
+</div>
 <hr />
 <table class="table table-bordered table-hover">
     <thead>
@@ -20,7 +33,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var documento in Model)
+        @foreach (var documento in Model.Documentos)
         {
             <text>
                 <tr>

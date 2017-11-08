@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Data;
+using Web.Models;
+
 namespace Web.Controllers
 {
     public class DocumentosController : Controller
@@ -12,10 +14,20 @@ namespace Web.Controllers
         public ActionResult Index()
         {
             var appContext = new ApplicationContext();
-            List<Entidades.Documento> listaDocumentos = appContext.Documentos.ToList();
-            return View(listaDocumentos);
+            var model = new DocumentoListaViewModel();
+            model.Documentos = appContext.Documentos.ToList();
+            return View(model);
         }
-
+        [HttpPost]
+        public ActionResult Filtro(DocumentoListaViewModel filtro)
+        {
+            var appContext = new ApplicationContext();
+            var model = new DocumentoListaViewModel();
+            model.Documentos = appContext.Documentos
+                .Where(documento=> documento.Referencia.Contains(filtro.Referencia))
+                .ToList();
+            return View("Index",model);
+        }
         public ActionResult Nuevo()
         {
             var appContext = new ApplicationContext();
@@ -63,8 +75,9 @@ namespace Web.Controllers
                     Text = ap.Nombre,
                     Value = ap.Id.ToString()
                 }).ToList();
+
+                return View(model);
             }
-            return View(model);
         }
 
         public ActionResult Editar(int id)
@@ -108,7 +121,16 @@ namespace Web.Controllers
                 //Redireccionar a la vista principal
                 return RedirectToAction("Index", "Documentos");
             }
-            return View();
+            else
+            {
+                var appContext = new ApplicationContext();
+                model.ListaPersonas = appContext.AgendaPersonas.Select(ap => new SelectListItem
+                {
+                    Text = ap.Nombre,
+                    Value = ap.Id.ToString()
+                }).ToList();
+                return View(model);
+            }
         }
     }
 }
